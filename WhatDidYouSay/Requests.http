@@ -1,0 +1,43 @@
+### Belgian - Google Translate
+
+POST https://localhost:7110/google-translate
+Content-Type: application/json
+
+{
+   "text" : "Hallo Khalid, is alles goed met jou?",
+   "targetLanguageCode" : "en-US",
+   "sourceLanguageCode" : "nl"
+}
+
+### Russian - Google Translate
+
+POST https://localhost:7110/google-translate
+Content-Type: application/json
+
+{
+  "text" : "У вас есть меню на английском?",
+  "targetLanguageCode" : "en-US",
+  "sourceLanguageCode" : "ru"
+}
+
+### Belgian - DeepL
+
+POST https://localhost:7110/deepl-translate
+Content-Type: application/json
+
+{
+  "text" : "Hallo Khalid, is alles goed met jou?",
+  "targetLanguageCode" : "en-US",
+  "sourceLanguageCode" : "nl"
+}
+
+### Russian - DeepL
+
+POST https://localhost:7110/deepl-translate
+Content-Type: application/json
+
+{
+  "text" : "У вас есть меню на английском?",
+  "targetLanguageCode" : "en-US",
+  "sourceLanguageCode" : "ru"
+}
